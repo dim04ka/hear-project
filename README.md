@@ -1,4 +1,4 @@
-**This project about design for hair**
+**This project about design for hair!**
 
 ## Structure
 
