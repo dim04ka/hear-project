@@ -19,7 +19,6 @@ export const Title = styled.div`
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
   color: #ffffff;
   margin-bottom: 15px;
 
