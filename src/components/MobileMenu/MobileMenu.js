@@ -1,9 +1,9 @@
-import { useContext } from "react";
-import { UserContext } from "@/App";
-import LogoImage from "@/components/TopHeader/images/logo.svg";
-import IconPhone from "@/components/TopHeader/images/phone_icon.svg";
-import { MENU } from "@/consts/mobileMenu";
-import SocialIcons from "@/components/SocialIcons/SocialIcons";
+import { useContext } from 'react'
+import { UserContext } from '@/App'
+import LogoImage from '@/components/TopHeader/images/logo.svg'
+import IconPhone from '@/components/TopHeader/images/phone_icon.svg'
+import { MENU } from '@/consts/mobileMenu'
+import SocialIcons from '@/components/SocialIcons/SocialIcons'
 import {
   MobileMenuWrapper,
   Block,
@@ -16,14 +16,14 @@ import {
   MenuItem,
   Separate,
   WrapperIcons,
-} from "./MobileMenu.styled";
+} from './MobileMenu.styled'
 
 const MobileMenu = () => {
-  const [isOpen, setIsOpen] = useContext(UserContext);
+  const [isOpen, setIsOpen] = useContext(UserContext)
 
   const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   return (
     isOpen && (
@@ -51,7 +51,7 @@ const MobileMenu = () => {
         </WrapperIcons>
       </MobileMenuWrapper>
     )
-  );
-};
+  )
+}
 
-export default MobileMenu;
+export default MobileMenu
