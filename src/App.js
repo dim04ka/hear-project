@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from '@/page/Header/Header'
 import MobileMenu from '@/components/MobileMenu/MobileMenu'
 import HeaderImage from '@/components/HeaderImage/HeaderImage'
+import Footer from '@/page/Footer/Footer'
 import './style.css'
 
 export const UserContext = React.createContext()
@@ -15,7 +16,7 @@ function App() {
         <MobileMenu />
         <Header />
         <HeaderImage />
-        <div style={{ height: 2000 }}></div>
+        <Footer />
       </UserContext.Provider>
     </div>
   )

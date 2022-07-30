@@ -2,15 +2,12 @@ import { useContext } from 'react'
 import { UserContext } from '@/App'
 import SocialIcons from '@/components/SocialIcons/SocialIcons'
 import LogoImage from '@/components/TopHeader/images/logo.svg'
-import IconPhone from '@/components/TopHeader/images/phone_icon.svg'
+import Phone from '@/components/Phone/Phone'
 import {
   Logo,
   Wrapper,
   WrapperMenu,
   WrapperContent,
-  Phone,
-  Icon,
-  Number,
   Link,
   MenuItem,
   Item,
@@ -46,10 +43,7 @@ const TopHeader = () => {
                 </MenuItem>
               ))}
             </WrapperMenu>
-            <Phone href="tel:+1-847-555-5555">
-              <Icon src={IconPhone} />
-              <Number>+375 29 65 92 367</Number>
-            </Phone>
+            <Phone />
             <SocialIcons />
           </WrapperContent>
           <MobileButton onClick={handleClick} />

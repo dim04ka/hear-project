@@ -31,24 +31,6 @@ export const MobileButton = styled.div`
   background-image: url('${MobileButtonIconOpen}');
 `
 
-export const Phone = styled.a`
-  transition: all 0.3s;
-  cursor: pointer;
-  text-decoration: none;
-  display: flex;
-  border-radius: 5px;
-  padding: 15px;
-  width: 100%;
-`
-export const Icon = styled.img`
-  margin-right: 5px;
-`
-export const Number = styled.span`
-  font-family: 'IBM Plex Serif';
-  color: #1b4669;
-  font-weight: 900;
-`
-
 export const WrapperMenu = styled.div`
   display: flex;
   flex-direction: column;
