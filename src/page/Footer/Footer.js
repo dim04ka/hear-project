@@ -6,6 +6,9 @@ import {
   MenuItemStyled,
   FooterContinerStyled,
   ContactStyled,
+  FooterMobileStyled,
+  FooterMobileMenuStyled,
+  SocialIconsStyle,
 } from './Footer.style'
 import LogoSvg from './images/logo.svg'
 
@@ -32,6 +35,26 @@ const Footer = () => {
           <SocialIcons />
         </ContactStyled>
       </FooterContinerStyled>
+      <FooterMobileStyled>
+        <img src={LogoSvg} alt="logo" />
+        <FooterMobileMenuStyled>
+          <ul>
+            <li>Обо мне</li>
+            <li>Что я могу вам предложить </li>
+            <li>Услуги и цены</li>
+          </ul>
+          <ul>
+            <li>Косметика </li>
+            <li>Галерея</li>
+            <li>Контакты</li>
+          </ul>
+        </FooterMobileMenuStyled>
+        <SocialIconsStyle>
+          <SocialIcons />
+        </SocialIconsStyle>
+
+        <Phone />
+      </FooterMobileStyled>
     </FooterStyled>
   )
 }
