@@ -5,25 +5,27 @@ import {
     Label,
     Text,
     TextAbout,
-    PointImg,
+    PoinContainer,
     ScabbardImg,
     SeaImage,
-} from "./index.style";
+    Line,
+    Point
+} from "./AboutMe.style";
 import PhotoImg from './images/AutorPhoto.png'
-import Point from './images/point.svg'
 import Scabbard from './images/scabbard.svg'
 import ImageSea from './images/ImageSea.png'
 
 const AboutMe = () => {
     return (<>
         <Wrapper>
-
             <Photo src={PhotoImg} />
-
             <ContentText>
                 <Label>
                     <TextAbout>Обо мне</TextAbout>
-                    <PointImg src={Point} />
+                    <PoinContainer>
+                        <Line />
+                        <Point />
+                    </PoinContainer>
                     <ScabbardImg src={Scabbard} />
                 </Label>
                 <Text>Привет, меня завут инна и я мастер парикмахерского искусства, а также мастер маникюра и педекюра. я занимаюсь своим любимым делом более 15 лет, стараюсь никогда не останавливаться на достигнутом, повышая свою профессиональную квалификацию и мастерство.

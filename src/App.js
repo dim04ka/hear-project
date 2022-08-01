@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from '@/page/Header/Header';
 import MobileMenu from '@/components/MobileMenu/MobileMenu';
 import HeaderImage from '@/components/HeaderImage/HeaderImage'
-import AboutMe from './components/AboutMe/index'
+import AboutMe from '@/components/AboutMe/AboutMe'
 import './style.css';
 
 export const UserContext = React.createContext();

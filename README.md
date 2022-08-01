@@ -7,4 +7,3 @@
 
 3. yarn install
 4. npm run start
-5.
