@@ -9,7 +9,6 @@ export const UserContext = React.createContext();
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <div className="App">
       <UserContext.Provider value={[isOpen, setIsOpen]}>
@@ -17,7 +16,6 @@ function App() {
         <HeaderImage />
         <AboutMe />
         <div style={{ height: 2000 }}></div>
-
         <MobileMenu />
       </UserContext.Provider>
     </div>

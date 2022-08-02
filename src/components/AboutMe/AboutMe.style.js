@@ -1,16 +1,19 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+position: relative;
   margin: 0 auto;
   width: 1110px;
   height: 500px;
   margin-bottom: 45px;
   display: flex;
+
 `;
 
 export const Photo = styled.img`
   width: 475px;
   height: 500px;
+  z-index: 2;
   margin-right:96px;
 `;
 
@@ -35,6 +38,8 @@ export const TextAbout = styled.h3`
   text-transform: capitalize;
   color: #1B4669;
   margin: 0px;
+  margin-right: 15px;
+  margin-bottom: 25px;
 `;
 
 export const PointImg = styled.img`
@@ -77,4 +82,15 @@ export const Point = styled.div`
 width: 210px;
 height:1px;
 border-top: 2px dashed rgba(27, 70, 105, 0.45);
+`
+export const LinePointContainer = styled.div`
+    position: absolute;
+    width: 474px;
+    left: -167px;
+    top: 152px;
+`
+export const LinePoint = styled.div`
+border-top: 3px dotted rgba(29, 153, 153, 0.25);
+margin-bottom: 20px;
+height: 0px;
 `

@@ -9,7 +9,9 @@ import {
     ScabbardImg,
     SeaImage,
     Line,
-    Point
+    Point,
+    LinePoint,
+    LinePointContainer
 } from "./AboutMe.style";
 import PhotoImg from './images/AutorPhoto.png'
 import Scabbard from './images/scabbard.svg'
@@ -18,6 +20,21 @@ import ImageSea from './images/ImageSea.png'
 const AboutMe = () => {
     return (<>
         <Wrapper>
+            <LinePointContainer>
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+                <LinePoint />
+            </LinePointContainer>
+
             <Photo src={PhotoImg} />
             <ContentText>
                 <Label>

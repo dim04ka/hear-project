@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 110px;
+  margin-bottom: 7%;
 `;
 
 export const Title = styled.div`
