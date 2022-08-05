@@ -1,5 +1,6 @@
 import SocialIcons from '@/components/SocialIcons/SocialIcons'
 import Phone from '@/components/Phone/Phone'
+import { useIsMobile } from '@/hooks'
 import {
   FooterStyled,
   MenuStyled,
@@ -19,6 +20,9 @@ const text = [
 ]
 
 const Footer = () => {
+  const isMobile = useIsMobile();
+
+  console.log('isMobile', isMobile)
   return (
     <FooterStyled>
       <FooterContinerStyled>
