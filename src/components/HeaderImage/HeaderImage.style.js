@@ -9,7 +9,9 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 110px;
-`
+  margin-bottom: 7%;
+`;
+
 
 export const Title = styled.div`
   font-family: 'Viaoda Libre';
@@ -19,7 +21,6 @@ export const Title = styled.div`
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
   color: #ffffff;
   margin-bottom: 15px;
 
